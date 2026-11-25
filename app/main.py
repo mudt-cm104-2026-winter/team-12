@@ -35,8 +35,7 @@ def show_list(request: Request):
 
 
 @app.post("/add")
-def add(thing: str = Form(...), person: str = Form(...)):
+def add(room: str = Form(...), group: str = Form(...)):
     """The form on the start page sends its fields here."""
-    storage.add_entry(thing=thing.strip(), person=person.strip())
-    # Back to the start page. 303 tells the browser: load it with GET.
+    storage.add_entry(room=room.strip(), group=group.strip())
     return RedirectResponse("/", status_code=303)
