@@ -7,5 +7,5 @@ Example:
 -->
 
 ## Unreleased
-
+- Add room booking requirements documentation (#5)
 - Start from the repository template
