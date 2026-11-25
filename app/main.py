@@ -21,7 +21,7 @@ from . import storage
 
 HERE = Path(__file__).parent
 
-app = FastAPI(title="Things to bring")
+app = FastAPI(title="Room Booking")
 app.mount("/static", StaticFiles(directory=HERE / "static"), name="static")
 templates = Jinja2Templates(directory=HERE / "templates")
 
