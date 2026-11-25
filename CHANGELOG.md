@@ -8,4 +8,5 @@ Example:
 
 ## Unreleased
 
+- Add pull request review guide and document AI usage (#3).
 - Start from the repository template
