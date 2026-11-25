@@ -7,5 +7,7 @@ Example:
 -->
 
 ## Unreleased
+
 - Add room booking requirements documentation (#5)
+- Add pull request review guide and document AI usage (#3).
 - Start from the repository template
