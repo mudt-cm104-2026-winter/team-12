@@ -51,3 +51,4 @@ No real names: this repository is public. -->
 - 2026-11-05: <tool>, used for <what>, checked by <how you checked the result>
 "none" is a valid entry.
 -->
+- 2026-11-25: ChatGPT, used for drafting the pull request review guide and room booking requirements, checked by reading the documentation and reviewing the changes on GitHub.
