@@ -1,11 +1,8 @@
-# Team project
-
-<!-- Replace the title with your project name. -->
+# Room Booking
 
 ## What this is
 
-<!-- One or two sentences: what does your app do, and who is it for?
-Right now it is the example "Things to bring". Replace it with your topic. -->
+Room Booking is a web application designed to help students and teams manage room reservations and avoid double bookings.
 
 ## How to run it
 
@@ -30,26 +27,24 @@ No real names: this repository is public. -->
 | GitHub | Role |
 |---|---|
 | teolfen | Reviewing (Seat 1) |
+| 36rohan | Issues and Project Board (Seat 2) |
+| antipacekelvin |Branch Protection and PR Template (Seat 3) |
+
 
 ## How we work
 
-<!-- How your team uses Git. For example:
-- one branch per issue, named after it: `12-add-glossary`
-- every pull request needs one approval from another team member
-- the author merges after the approval
-- every pull request adds a line to CHANGELOG.md
--->
+- We create a separate branch for each issue.
+- Each pull request is linked to its related issue.
+- Every pull request requires approval from another team member.
+- Reviewers leave comments on specific lines when reviewing changes.
+- The author merges the pull request after approval.
+- We update CHANGELOG.md to document project changes.
 
 ## Sources
 
-<!-- One entry per source, added on the day you use it:
-- 2026-11-05: <title or link>, used for <what>
--->
+- 2026-11-25: CM104 Assessment 1 instructions and Expert Sheet A, used for understanding the project requirements and review process.
 
 ## Use of AI
 
-<!-- One entry per use, added on the day you use it:
-- 2026-11-05: <tool>, used for <what>, checked by <how you checked the result>
-"none" is a valid entry.
--->
 - 2026-11-25: ChatGPT, used for drafting the pull request review guide and room booking requirements, checked by reading the documentation and reviewing the changes on GitHub.
+- 2026-11-25: ChatGPT, used for drafting README sections and providing GitHub workflow guidance, checked against the assignment instructions and GitHub preview.
