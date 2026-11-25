@@ -29,6 +29,7 @@ No real names: this repository is public. -->
 
 | GitHub | Role |
 |---|---|
+| teolfen | Reviewing (Seat 1) |
 
 ## How we work
 
