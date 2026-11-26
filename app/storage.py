@@ -17,7 +17,7 @@ def all_entries():
     return list(_entries)
 
 
-def add_entry(room, group):
+def add_entry(room: str, group: str):
     """Store a new booking and return it."""
     global _next_id
     entry = {"id": _next_id, "room": room, "group": group}
