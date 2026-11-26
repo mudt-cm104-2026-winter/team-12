@@ -48,3 +48,4 @@ No real names: this repository is public. -->
 
 - 2026-11-25: ChatGPT, used for drafting the pull request review guide and room booking requirements, checked by reading the documentation and reviewing the changes on GitHub.
 - 2026-11-25: ChatGPT, used for drafting README sections and providing GitHub workflow guidance, checked against the assignment instructions and GitHub preview.
+- 2026-11-26: ChatGPT, used to assist with implementing the booking deletion feature and updating project documentation. The feature was verified locally by adding and deleting room bookings.
