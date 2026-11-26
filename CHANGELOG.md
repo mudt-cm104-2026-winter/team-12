@@ -8,6 +8,7 @@ Example:
 
 ## Unreleased
 
+- Rename example fields to room booking fields (#24)
 - Add room booking requirements documentation (#5)
 - Add pull request review guide and document AI usage (#3).
 - Start from the repository template
