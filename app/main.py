@@ -39,3 +39,9 @@ def add(room: str = Form(...), group: str = Form(...)):
     """The form on the start page sends its fields here."""
     storage.add_entry(room=room.strip(), group=group.strip())
     return RedirectResponse("/", status_code=303)
+
+
+@app.post("/delete/{entry_id}")
+def delete(entry_id: int):
+    storage.delete_entry(entry_id)
+    return RedirectResponse("/", status_code=303)
