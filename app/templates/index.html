@@ -20,11 +20,19 @@
     {% if entries %}
     <table>
       <thead>
-        <tr><th>Room</th><th>Group</th></tr>
+        <tr><th>Room</th><th>Group</th><th>Action</th></tr>
       </thead>
       <tbody>
         {% for entry in entries %}
-        <tr><td>{{ entry.room }}</td><td>{{ entry.group }}</td></tr>
+        <tr>
+    <td>{{ entry.room }}</td>
+    <td>{{ entry.group }}</td>
+    <td>
+        <form action="/delete/{{ entry.id }}" method="post">
+            <button type="submit">Delete</button>
+        </form>
+    </td>
+</tr>
         {% endfor %}
       </tbody>
     </table>

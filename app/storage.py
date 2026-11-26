@@ -1,3 +1,4 @@
+
 """Where the entries are kept.
 
 For now: a Python list in memory. Simple, and it forgets everything when
@@ -24,3 +25,11 @@ def add_entry(room: str, group: str):
     _entries.append(entry)
     _next_id += 1
     return entry
+
+def delete_entry(entry_id: int):
+    """Delete a booking by its ID."""
+    for entry in _entries:
+        if entry["id"] == entry_id:
+            _entries.remove(entry)
+            return True
+    return False
