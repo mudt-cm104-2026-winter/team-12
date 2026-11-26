@@ -7,7 +7,7 @@ Example:
 -->
 
 ## Unreleased
-
+- Finalize changelog and AI usage documentation (#30)
 - Add booking deletion feature (#28)
 - Fix add_entry parameters and add type hints (#26)
 - Rename example fields to room booking fields (#25)
@@ -21,4 +21,3 @@ Example:
 - Add room booking requirements documentation (#5)
 - Add pull request review guide and document AI usage (#3)
 - Start from the repository template
-- Finalize changelog and AI usage documentation (#30)
